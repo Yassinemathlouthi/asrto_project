@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astro project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <header>
+        <nav>
+            <div class="logo">Cosmic Explorer</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#planets">Planets</a></li>
+                <li><a href="#learning">Learning Center</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button id="loginBtn">Login</button>
+                <button id="registerBtn">Register</button>
+                <button id="logoutBtn" style="display: none;">Logout</button>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <video autoplay muted loop id="bgVideo">
+                <source src="https://cdn.pixabay.com/vimeo/328370176/earth-24536.mp4?width=1280&hash=f50f8c2a8f6a0b0a1b1e7c5f1f1e1f1e1f1e1f1e" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1>Explore the Solar System</h1>
+                <p>Embark on a cosmic journey through our celestial neighborhood</p>
+                <a href="#planets" class="cta-button">Start Exploring</a>
+            </div>
+        </section>
+
+    </main>
+
+    
+</body>
+</html>
